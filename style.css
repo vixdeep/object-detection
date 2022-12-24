@@ -1,37 +1,51 @@
-body
-{
-background-position: center;
-background-size: cover;
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
 }
 
-.heading
-{
-font-size: 23px;
-width: 100%;
-margin: 0px;
+.note{
+    font-size: 15px;
+    color:rgb(0, 35, 70)
 }
 
-#status
-{
-font-size: 18px;
+body{
+    background-size:cover;
 }
 
-canvas
-{
-box-shadow: 10px 10px 10px grey;
-border-radius: 10px;
-margin-top: 60px;
+.div_speed{
+    float:left;
 }
-a
-{
-  float:right;
-  font-size: 20px !important;
-  margin: 5px;
-  background: black;
-  cursor: pointer;
-  color: white;
+
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
 }
-a:hover
-{
-  color:red !important;
+
+#speed{
+    font-size: 23px;
+    margin:15px;
+}
+
+.div_volume{
+    float:right;
+}
+
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume{
+    font-size: 23px;
+    margin:15px;
+}
+
+.play_button{
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas{
+    border:5px solid rgb(191, 188, 255)
 }
